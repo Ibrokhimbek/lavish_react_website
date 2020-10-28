@@ -19,7 +19,7 @@
 
 .btn--outline {
   background-color: transparent;
-  color: white;
+  color: #fff;
   padding: 8px 20px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
@@ -40,11 +40,11 @@
   border-radius: 4px;
   width: 80%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   background-color: transparent;
-  color: white;
+  color: #fff;
   padding: 14px 20px;
-  border: 1px solid white;
+  border: 1px solid #fff;
   transition: all 0.3s ease-out;
 }
 
@@ -57,56 +57,56 @@
 .btn--medium:hover,
 .btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background-color: white;
+  background: #fff;
   color: #242424;
 }
 
 .btn--wide:hover {
-  color: white;
+  color: #fff;
   background-color: #f00946;
   transition: all 0.2s ease-out;
 }
 
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+
 .blue {
   background-color: #276afb;
-  color: white;
+  color: #fff;
   border: none;
 }
 
 .red {
   background-color: #f00946;
-  color: white;
+  color: #fff;
   border: none;
 }
 
 .primary {
   background-color: #242424;
-  color: white;
+  color: #fff;
   border: none;
 }
 
 .primary:hover {
-  background-color: white;
+  background-color: #fff;
   color: #242424;
   border: none;
 }
 
 .green {
-  background-color: #25ce4a;
-  color: white;
+  background: #25ce4a;
+  color: #fff;
   border: none;
 }
 
 .green:hover {
   background-color: #242424;
-}
-
-.btn-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 8px 20px;
-    height: 100%;
-    width: 100%;
 }

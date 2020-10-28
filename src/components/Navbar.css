@@ -77,7 +77,6 @@
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    overflow-x: hidden;
     position: relative;
   }
 
@@ -130,7 +129,6 @@
   }
 
   .menu-icon {
-    color: white;
     display: block;
     position: absolute;
     top: 0;
